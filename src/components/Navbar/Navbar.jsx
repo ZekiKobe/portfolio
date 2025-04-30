@@ -18,7 +18,7 @@ function Navbar() {
     const url = "./assets/PDF/CV-Zekarias Kobota.pdf";
     const link = document.createElement("a");
     link.href = url;
-    link.download = "Zekarias Kobota CV.pdf";
+    link.download = "CV-Zekarias Kobota.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
