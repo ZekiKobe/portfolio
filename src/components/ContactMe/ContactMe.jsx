@@ -24,7 +24,7 @@ function ContactMe() {
               <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-slate-900/70 border border-slate-800 text-accent">
                 <FaEnvelope size={16} />
               </span>
-              <p className="font-medium">gagurekobe@gmail.com</p>
+              <p className="font-medium">zekariaskobota@gmail.com</p>
             </div>
             <div className="flex items-center gap-3">
               <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-slate-900/70 border border-slate-800 text-accent">
