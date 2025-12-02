@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
+import { IoMdClose } from "react-icons/io";
 
 function MobileNav({ isOpen, toggleMenu, toggleClose }) {
   const handleDownload = () => {
@@ -25,20 +26,29 @@ function MobileNav({ isOpen, toggleMenu, toggleClose }) {
           }`}
           onClick={(e) => e.stopPropagation()}
         >
-          <div className="mb-6 flex items-center gap-3">
-            <img
-              src="./assets/images/z.png"
-              alt="logo"
-              className="h-9 w-9 rounded-full border border-slate-700"
-            />
-            <div className="flex flex-col">
-              <span className="text-sm font-medium text-slate-100">
-                Zekarias Kobota
-              </span>
-              <span className="text-[11px] text-slate-400">
-                Full Stack Developer
-              </span>
+          <div className="mb-6 flex items-center justify-between gap-3">
+            <div className="flex items-center gap-3">
+              <img
+                src="./assets/images/z.png"
+                alt="logo"
+                className="h-9 w-9 rounded-full border border-slate-700"
+              />
+              <div className="flex flex-col">
+                <span className="text-sm font-medium text-slate-100">
+                  Zekarias Kobota
+                </span>
+                <span className="text-[11px] text-slate-400">
+                  Full Stack Developer
+                </span>
+              </div>
             </div>
+            <button
+              onClick={toggleClose}
+              className="inline-flex h-7 w-7 items-center justify-center rounded-full border border-slate-700/70 bg-slate-900/60 text-slate-300 hover:text-accent hover:border-accent transition"
+              aria-label="Close menu"
+            >
+              <IoMdClose size={16} />
+            </button>
           </div>
 
           <ul className="space-y-4 text-sm font-medium text-slate-200">
