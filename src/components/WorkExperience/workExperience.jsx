@@ -1,26 +1,22 @@
 import React from "react";
-import "./workExperience.css";
 import { WORK_EXPERIENCE } from "../../Utils/data";
 import WorkExperienceCard from "./WorkExperienceCard/workExperienceCard";
 import "@fontsource-variable/material-symbols-outlined";
 
-
 function WorkExperience() {
-
   return (
-    <section className="experience-container" id="experience">
-      <h5 className="tagged-title" style={{ marginBottom: "40px" }}>
-        <span className="code-tag">
-          &lt;&gt; <span className="tag-text">Work experience</span> &lt;/&gt;
-        </span>
+    <section className="space-y-8" id="experience">
+      <h5 className="inline-flex items-center rounded-full border border-slate-800 bg-slate-900/60 px-4 py-1 text-xs font-medium text-slate-300">
+        <span className="mr-1 text-accent">&lt;/&gt;</span>
+        <span>Work experience</span>
       </h5>
-      <div className="experience-content">
+      <div className="space-y-4">
         {WORK_EXPERIENCE.map((item, index) => (
           <WorkExperienceCard
             key={item.title}
             details={item}
-            data-aos="fade-up" // Animation trigger
-            data-aos-delay={index * 100} // Stagger animation for each item
+            data-aos="fade-up"
+            data-aos-delay={index * 100}
             data-aos-duration="1000"
           />
         ))}

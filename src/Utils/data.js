@@ -18,29 +18,23 @@ export const servicesData = [
   },
   {
     icon: <FaChartBar />,
-    title: "BI Report Designing",
-    description: "Developing interactive Business Intelligence (BI) reports and dashboards.",
+    title: "Video Editing",
+    description: "Creating engaging video content with clean cuts, smooth transitions, and story-focused editing.",
   },
 ];
 
 export const SKILLS = [
   {
-    skill: "HTML5",
-    description:
-      "Strong grasp of semantic HTML elements and structuring web content effectively.",
-    percentage: "90%",
-  },
-  {
-    skill: "CSS3",
-    description:
-      "Experienced in creating responsive layouts, animations, and styling best practices.",
-    percentage: "95%",
-  },
-  {
     skill: "React.js",
     description:
       "Expertise in building SPAs with React, managing state, and using hooks.",
     percentage: "94%",
+  },
+  {
+    skill: "Next.js",
+    description:
+      "Experienced in building production-ready React apps with Next.js, including routing, data fetching, and SEO-friendly pages.",
+    percentage: "90%",
   },
   {
     skill: "Node.js",
@@ -61,40 +55,10 @@ export const SKILLS = [
     percentage: "94%",
   },
   {
-    skill: "Data Warehousing",
+    skill: "Flutter",
     description:
-      "Experienced in designing and managing data warehouses for structured reporting and analytics.",
-    percentage: "89%",
-  },
-  {
-    skill: "Power BI",
-    description:
-      "Skilled in creating interactive dashboards and data visualizations to drive business insights.",
-    percentage: "92%",
-  },
-  {
-    skill: "PL/SQL",
-    description:
-      "Experienced in Oracle PL/SQL programming, including packages, triggers, cursors, and performance tuning.",
-    percentage: "90%",
-  },
-  {
-    skill: "Data Analysis",
-    description:
-      "Strong ability to analyze large datasets, identify trends, and derive actionable insights to support business decisions.",
-    percentage: "92%",
-  },
-  {
-    skill: "Reporting",
-    description:
-      "Experienced in designing and generating detailed reports using SQL Server Reporting Services (SSRS), Power BI, and Excel.",
-    percentage: "91%",
-  },
-  {
-    skill: "Data Lakehouse",
-    description:
-      "Knowledgeable in building unified architectures combining the capabilities of data lakes and data warehouses for scalable analytics.",
-    percentage: "87%",
+      "Experience building cross-platform mobile applications using Flutter and Dart, focusing on smooth UIs and performant client-side logic.",
+    percentage: "85%",
   },
 ];
 
@@ -136,8 +100,21 @@ export const EDUCATION = [
 ];
 
 export const PROJECTS = [
+  
   {
-    title: "Web Based CV Analysis and Illegibility Prediction System",
+    title: "SimuniMart Ecommerce Platform",
+    icon: "./assets/images/simuni.png",
+    link: "https://simunimart.com",
+    linkLabel: "Simuni Mart (simunimart.com)",
+    resposibilities: [
+      "Production-ready ecommerce platform for SimuniMart with real customers and orders.",
+      "Modern product catalog, cart, checkout, and order management flows optimized for usability.",
+      "Secure authentication, role-based access for admins, and integration with payment and fulfillment workflows.",
+      "Responsive UX tailored for mobile and desktop shoppers with performance-focused implementation.",
+    ],
+  },
+  {
+    title: "Web Based CV Analysis and Eligibility Prediction System",
     icon: "./assets/images/python_bootstrap.jpeg",
     link: "https://github.com/ZekiKobe/Web_based_CV_analysis_and_ellegibility_prediction_system_using_django",
     resposibilities: [
@@ -148,17 +125,18 @@ export const PROJECTS = [
     ],
   },
 
-  {
-    title: "ECOMMERCE WEBSITE",
-    icon: "./assets/images/ecommerce.png",
-    link: "https://github.com/ZekiKobe/simple_ecommrce_website",
-    resposibilities: [
-      "Dynamic product catalog with search and filter capabilities.",
-      "Secure user authentication, shopping cart, and checkout process.",
-      "Responsive design for all devices, integrated payment system, and admin panel for order management.",
-      "Suitable integration with popular stripe payment gateway",
-    ],
-  },
+  // {
+  //   title: "Ecommerce Website (practice project)",
+  //   icon: "./assets/images/ecommerce.png",
+  //   link: "https://github.com/ZekiKobe/simple_ecommrce_website",
+  //   resposibilities: [
+  //     "Dynamic product catalog with search and filter capabilities.",
+  //     "Secure user authentication, shopping cart, and checkout process.",
+  //     "Responsive design for all devices, integrated payment system, and admin panel for order management.",
+  //     "Suitable integration with popular stripe payment gateway",
+  //   ],
+  // },
+
 
   {
     title: "Clearance Management System",
