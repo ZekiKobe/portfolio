@@ -79,12 +79,12 @@ export const WORK_EXPERIENCE = [
     title: "Junior Application Developer Officer",
     company: "Amhara Bank S.C",
     date: "Nov 2023 - Present",
-responsibilities: [
-  "Develops, tests, and maintains software applications and system modules to ensure smooth data flow across all departments.",
-  "Writes clean, scalable, and efficient code while implementing best practices in debugging, optimization, and version control.",
-  "Builds and integrates APIs, services, and backend logic to support new system features and enhance existing functionality.",
-  "Designs and implements modern system architectures, including modular and scalable components that support long-term system growth."
-],
+    responsibilities: [
+      "Develops, tests, and maintains software applications and system modules to ensure smooth data flow across all departments.,"+
+      "Writes clean, scalable, and efficient code while implementing best practices in debugging, optimization, and version control.,"+
+      "Builds and integrates APIs, services, and backend logic to support new system features and enhance existing functionality.,"+
+      "Designs and implements modern system architectures, including modular and scalable components that support long-term system growth."
+    ],
 
   },
 ];
